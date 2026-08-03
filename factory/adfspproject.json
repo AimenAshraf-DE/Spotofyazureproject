@@ -1,0 +1,15 @@
+{
+	"name": "adfspproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e9b68000-2202-40a1-8e4a-476ee494c211",
+		"tenantId": "ea49dfa9-7c5f-48bd-8c2c-99ea2a8d9c46"
+	}
+}
