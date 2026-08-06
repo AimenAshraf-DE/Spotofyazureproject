@@ -1,0 +1,20 @@
+{
+	"name": "ds_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDLK",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Orders",
+				"fileSystem": "sink"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
