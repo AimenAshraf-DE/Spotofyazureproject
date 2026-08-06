@@ -198,10 +198,6 @@
 								"secureInput": false
 							},
 							"userProperties": [],
-							"linkedServiceName": {
-								"referenceName": "AzureSqlDb",
-								"type": "LinkedServiceReference"
-							},
 							"typeProperties": {
 								"scripts": [
 									{
